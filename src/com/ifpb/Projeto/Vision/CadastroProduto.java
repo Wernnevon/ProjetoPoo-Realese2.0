@@ -30,7 +30,7 @@ public class CadastroProduto extends JFrame{
 
     public CadastroProduto(){
         super("Cadastro de Produtos");
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.HIDE_ON_CLOSE);
         setSize(500,700);
         setContentPane(cadastroProdutos);
         ImageIcon icone = new ImageIcon("imagens/addProdutos.png");

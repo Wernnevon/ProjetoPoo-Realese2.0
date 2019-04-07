@@ -18,7 +18,7 @@ public class TelaBusca extends JFrame{
 
     public TelaBusca(){
         super("Busca de funcionários");
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.HIDE_ON_CLOSE);
         setSize(500,500);
         setContentPane(buscar);
         ImageIcon icone = new ImageIcon("imagens/Search.png");
@@ -30,8 +30,6 @@ public class TelaBusca extends JFrame{
         }
 
         voltarButton.addActionListener(e->{
-            //abre Janela Menu
-//            new TelaCadastro().setVisible(true);
             this.dispose();
         });
 

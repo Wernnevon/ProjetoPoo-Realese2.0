@@ -3,6 +3,7 @@ package com.ifpb.Projeto.modelo;
 
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.util.Objects;
 
 public class Pedido implements Serializable {
 
@@ -11,11 +12,11 @@ public class Pedido implements Serializable {
     private int mesa;
     private double valor;
 
-    public Pedido(String numeropedido, LocalDate dataPedido, int mesa, double valorpedido) {
-        this.numeroPedido = numeroPedido;
+    public Pedido(String numpedido, LocalDate dataPedido, int mesa, double valorpedido) {
+        this.numeroPedido = numpedido;
         this.dataPedido = dataPedido;
         this.mesa = mesa;
-        this.valor = valor;
+        this.valor = valorpedido;
     }
 
     public String getNumeroPedido() {
@@ -40,6 +41,15 @@ public class Pedido implements Serializable {
 
     public void setValor(double valor) {
         this.valor = valor;
+    }
+    @Override
+    public String toString() {
+        return "Pedido{" +
+                "numeroPedido='" + numeroPedido + '\'' +
+                ", dataPedido=" + dataPedido +
+                ", mesa=" + mesa +
+                ", valor=" + valor +
+                '}';
     }
 }
 

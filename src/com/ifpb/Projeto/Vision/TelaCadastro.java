@@ -24,7 +24,7 @@ public class TelaCadastro extends JFrame {
 
     public TelaCadastro() {
         super("Cadastro de Funcionários");
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.HIDE_ON_CLOSE);
         setSize(500, 700);
         setContentPane(painel);
         ImageIcon icon = new ImageIcon("imagens/iconAdd.png");
@@ -47,7 +47,7 @@ public class TelaCadastro extends JFrame {
         salvarButton.addActionListener(e -> {
             try {
                 if (exists()){
-
+                    JOptionPane.showMessageDialog(null, "CPF ja pertence a um funcionario!");
                 }else {
                     String cpf = campoCpf.getText();
                     String nome = campoNome.getText();
@@ -60,9 +60,9 @@ public class TelaCadastro extends JFrame {
                     Funcionario funcionario = new Funcionario(nome, cpf, nascimento, funcao);
                     try {
                         daoArquivoFuncionario.add(funcionario);
-                        JOptionPane.showMessageDialog(null, "Pedigo Armazenado!");
+                        JOptionPane.showMessageDialog(null, "Funcionário Cadastrado!");
                     } catch (IOException | ClassNotFoundException e1) {
-                        JOptionPane.showMessageDialog(null, "O pedido não foi armazenado!  Tente novamente.");
+                        JOptionPane.showMessageDialog(null, "Funcionario não cadastrado!  Tente novamente.");
                     }
                 }
             } catch (IOException | ClassNotFoundException ex) {

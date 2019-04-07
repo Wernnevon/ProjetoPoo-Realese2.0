@@ -6,6 +6,7 @@ import com.ifpb.Projeto.modelo.Bebida;
 import com.ifpb.Projeto.modelo.Prato;
 
 import javax.swing.*;
+import java.awt.*;
 import java.io.IOException;
 import java.util.List;
 
@@ -20,7 +21,7 @@ public class BuscaProduto extends JFrame{
 
     public BuscaProduto(){
         super("Busca de funcionários");
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.HIDE_ON_CLOSE);
         setSize(500,500);
         setContentPane(buscarProduto);
         ImageIcon icone = new ImageIcon("imagens/buscaProdutoCart.png");
@@ -34,8 +35,6 @@ public class BuscaProduto extends JFrame{
         }
 
         voltarButton.addActionListener(e->{
-            //abre Janela Menu
-//            new TelaCadastro().setVisible(true);
             this.dispose();
         });
 
