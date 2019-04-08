@@ -3,6 +3,7 @@ package com.ifpb.Projeto.Vision;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 
 public class TelaMenu extends JFrame{
     private JPanel panel;
@@ -40,13 +41,19 @@ public class TelaMenu extends JFrame{
             BuscaProduto busProduto = new BuscaProduto();
             busProduto.setVisible(true);
         });
-//        cadastroDePedidosButton.addActionListener(e-> {
-//
-//
-//        });
-//        buscaDePedidosButton.addActionListener(e-> {
-//
-//        });
+        cadastroDePedidosButton.addActionListener(e-> {
+            try {
+                CadastroPedido pedido =new CadastroPedido();
+                pedido.setVisible(true);
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+
+        });
+        buscaDePedidosButton.addActionListener(e-> {
+            BuscaPedido buscaPedido = new BuscaPedido();
+            buscaPedido.setVisible(true);
+        });
     }
 
     private void createUIComponents() {
