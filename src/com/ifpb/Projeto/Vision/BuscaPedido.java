@@ -12,9 +12,12 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.util.List;
 
+<<<<<<< HEAD
 /**
  * Classe que busca um pedido feito por um cliente
  */
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
 public class BuscaPedido extends JFrame{
     private JPanel painelBusca;
     private JFormattedTextField busca;
@@ -35,22 +38,31 @@ public class BuscaPedido extends JFrame{
         } catch (IOException e) {
             e.printStackTrace();
         }
+<<<<<<< HEAD
         /**
          * Botão para voltar à tela que o chamou
          */
+=======
+
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
         voltarButton.addActionListener(e -> {
             dispose();
         });
 
+<<<<<<< HEAD
         /**
          * Botão para buscar o pedido
          */
+=======
+
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
         buscarButton.addActionListener(e-> {
 
             List<Pedido> matches;
             try {
                 matches = daoArquivoPedido.getAllStartsWithName(busca.getText());
 
+<<<<<<< HEAD
                 /**
                  * Verificar se existe campo sem ser preenchido
                  */
@@ -61,6 +73,14 @@ public class BuscaPedido extends JFrame{
                      * Imprimindo os pedidos encontrados
                      */
                     StringBuilder builder = new StringBuilder();
+=======
+
+                    if (matches == null || matches.isEmpty()) {
+                        JOptionPane.showMessageDialog(null, "Nao foi encontrado nenhum \npedido com esse número!");
+                    } else {
+
+                        StringBuilder builder = new StringBuilder();
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
                         for (Pedido p : matches) {
                             builder.append("\n")
                                     .append("Mesa: ")
@@ -86,8 +106,15 @@ public class BuscaPedido extends JFrame{
             }
         });
     }
+<<<<<<< HEAD
 
     private void createUIComponents() {
+=======
+    private void createUIComponents() {
+
+
+
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
         ImageIcon imageIcon = new ImageIcon("imagens/basket.png");
         busImg = new JLabel(imageIcon);
         ImageIcon imageIcon1 = new ImageIcon("imagens/lupinha.png");

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="fc68be66-25f5-4371-8956-da82d3972454" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/BuscaPedido.form" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/BuscaPedido.java" afterDir="false" />
@@ -38,6 +39,18 @@
       <change beforePath="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/Tipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/Tipo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ifpb/Projeto/modelo/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ifpb/Projeto/modelo/Bebida.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ifpb/Projeto/modelo/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ifpb/Projeto/modelo/Funcionario.java" afterDir="false" />
+=======
+    <list default="true" id="fc68be66-25f5-4371-8956-da82d3972454" name="Default Changelist" comment="Telas conectadas e Funcionais">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prato.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prato.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterfaceGrafica/com/ifpb/Projeto/Vision/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterfaceGrafica/com/ifpb/Projeto/Vision/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterfaceGrafica/com/ifpb/Projeto/Vision/CadastroProduto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterfaceGrafica/com/ifpb/Projeto/Vision/CadastroProduto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterfaceGrafica/com/ifpb/Projeto/modelo/Pedido.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterfaceGrafica/com/ifpb/Projeto/modelo/Pedido.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dao/DaoArquivoPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dao/DaoArquivoPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/CadastroPedido.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/CadastroPedido.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/CadastroPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/CadastroPedido.java" afterDir="false" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
       <change beforePath="$PROJECT_DIR$/src/com/ifpb/Projeto/modelo/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ifpb/Projeto/modelo/Pedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ifpb/Projeto/modelo/Prato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ifpb/Projeto/modelo/Prato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ifpb/Projeto/modelo/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ifpb/Projeto/modelo/Produto.java" afterDir="false" />
@@ -103,6 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/App.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="102">
               <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
               <folding>
@@ -117,6 +131,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
               <caret line="86" column="57" selection-start-line="86" selection-start-column="57" selection-end-line="86" selection-end-column="57" />
+=======
+            <state>
+              <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,10 +143,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaCadastro.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="713">
               <caret line="106" column="11" selection-start-line="106" selection-start-column="11" selection-end-line="106" selection-end-column="11" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/CadastroPedido.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="73" column="11" lean-forward="true" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,6 +162,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/modelo/Prato.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -150,24 +176,53 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaCadastro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/modelo/Produto.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="5" column="83" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/Dao/DaoArquivoPedido.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/Funcao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/Dao/DaoArquivoFuncionario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1035">
+              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
             </state>
           </provider>
         </entry>
@@ -205,6 +260,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/com/ifpb/InterfaceGrafica/modelo/dataInvalida.java" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/InterfaceGrafica/Vision/Tipo.java" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/InterfaceGrafica/Vision/CadastroProduto.form" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/InterfaceGrafica/Vision/Classe.java" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/InterfaceGrafica/Vision/CadastroPedido.form" />
+        <option value="$PROJECT_DIR$/src/Dao/Dao.java" />
+        <option value="$PROJECT_DIR$/src/Dao/DaoArquivo.java" />
+        <option value="$PROJECT_DIR$/src/Projeto/modelo/Funcionario.java" />
+        <option value="$PROJECT_DIR$/Funcionarios.txt" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/InterfaceGrafica/Vision/Janela.java" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/InterfaceGrafica/Vision/TelaCadastro.form" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
         <option value="$PROJECT_DIR$/src/com/ifpb/InterfaceGrafica/Vision/Funcao.java" />
         <option value="$PROJECT_DIR$/src/com/ifpb/InterfaceGrafica/modelo/Funcionario.java" />
         <option value="$PROJECT_DIR$/src/com/ifpb/InterfaceGrafica/Vision/TelaBusca.form" />
@@ -230,6 +299,7 @@
         <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaLogin.java" />
         <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaDeLogin.form" />
         <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/Menu.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaDeLogin.java" />
         <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/BuscaPedido.form" />
         <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/CadastroProduto.form" />
@@ -256,6 +326,20 @@
         <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaMenu.java" />
         <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/Funcao.java" />
         <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaCadastro.java" />
+=======
+        <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaMenu.form" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/CadastroProduto.java" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaMenu.java" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaBusca.java" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/BuscaProduto.java" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaDeLogin.java" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/modelo/Pedido.java" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/App.java" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/CadastroPedido.form" />
+        <option value="$PROJECT_DIR$/src/Dao/DaoArquivoPedido.java" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaCadastro.java" />
+        <option value="$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/CadastroPedido.java" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
       </list>
     </option>
   </component>
@@ -315,13 +399,27 @@
               <item name="Projeto" type="462c0819:PsiDirectoryNode" />
               <item name="Vision" type="462c0819:PsiDirectoryNode" />
               <item name="TelaCadastro" type="e9f4de52:FormNode" />
+<<<<<<< HEAD
+=======
+            </path>
+            <path>
+              <item name="ProjetoPoo-Realese2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetoPoo-Realese2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Dao" type="462c0819:PsiDirectoryNode" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -414,6 +512,7 @@
       <workItem from="1554470746560" duration="2379000" />
       <workItem from="1554473243307" duration="2008000" />
       <workItem from="1554640962930" duration="11520000" />
+<<<<<<< HEAD
       <workItem from="1554659423757" duration="7236000" />
       <workItem from="1554680820153" duration="4631000" />
       <workItem from="1554718908525" duration="7106000" />
@@ -425,11 +524,26 @@
       <option name="project" value="LOCAL" />
       <updated>1554655541441</updated>
     </task>
+=======
+      <workItem from="1554659423757" duration="6599000" />
+    </task>
+    <task id="LOCAL-00001" summary="Telas conectadas e Funcionais">
+      <created>1554655541440</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554655541441</updated>
+    </task>
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="133259000" />
+=======
+    <option name="totallyTimeSpent" value="120885000" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,8 +555,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
+=======
+    <frame x="0" y="27" width="1366" height="694" extended-state="6" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -450,20 +568,32 @@
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.20921451" />
+=======
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2030303" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32795697" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007576" side_tool="true" weight="0.3297491" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32616487" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="5" weight="0.2569558" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.43369177" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.3297491" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39784947" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32616487" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924242" weight="0.32569557" />
+=======
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49924242" weight="0.32616487" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="GitHub Pull Requests" order="13" weight="0.3297491" />
       <window_info anchor="bottom" id="SVN Repositories" order="14" weight="0.3297491" />
@@ -507,9 +637,26 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+=======
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Classes e telas funcionais" />
@@ -716,7 +863,14 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Dao/DaoArquivoPrato.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/CadastroProduto.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/function/Predicate.java">
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="124" column="36" selection-start-line="124" selection-start-column="36" selection-end-line="124" selection-end-column="36" />
@@ -726,36 +880,77 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Dao/DaoArquivoPedido.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2074">
           <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/BuscarPedido.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/BuscarPedido.form" />
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/Tipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaLogin.form" />
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaLogin.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/Menu.form" />
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/Menu.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaDeLogin.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaMenu.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaBusca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/BuscaProduto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/CadastroPedido.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-374">
           <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaMenu.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
@@ -772,12 +967,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="86" column="57" selection-start-line="86" selection-start-column="57" selection-end-line="86" selection-end-column="57" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaDeLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/modelo/Pedido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/modelo/Produto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -810,6 +1033,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="106" column="11" selection-start-line="106" selection-start-column="11" selection-end-line="106" selection-end-column="11" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/CadastroPedido.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/CadastroProduto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="122" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dao/DaoArquivoFuncionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1035">
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/TelaCadastro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dao/DaoArquivoPedido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ifpb/Projeto/Vision/CadastroPedido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="73" column="11" lean-forward="true" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

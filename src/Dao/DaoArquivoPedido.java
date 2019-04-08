@@ -7,9 +7,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+<<<<<<< HEAD
 /**
  * Arquivo que armazena os pedidos
  */
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
 public class DaoArquivoPedido {
     private File archive;
     List<Pedido> pedidos;
@@ -20,6 +23,7 @@ public class DaoArquivoPedido {
 
     }
 
+<<<<<<< HEAD
     /**
      * Metodo que adiciona um pedido
      * @param t
@@ -27,6 +31,8 @@ public class DaoArquivoPedido {
      * @throws IOException
      * @throws ClassNotFoundException
      */
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     public boolean add(Pedido t) throws IOException, ClassNotFoundException {
         pedidos = this.getAll();
         if(!objExist(t)){
@@ -37,6 +43,7 @@ public class DaoArquivoPedido {
         return false;
     }
 
+<<<<<<< HEAD
     /**
      * Metodo que edita um pedido
      * @param t
@@ -44,6 +51,8 @@ public class DaoArquivoPedido {
      * @throws IOException
      * @throws ClassNotFoundException
      */
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     public boolean edit(Pedido t) throws IOException, ClassNotFoundException {
         pedidos = this.getAll();
         if (objExist(t)){
@@ -54,12 +63,15 @@ public class DaoArquivoPedido {
         return false;
     }
 
+<<<<<<< HEAD
     /**
      * Metodo que remove um pedido
      * @param t
      * @return
      * @throws IOException
      */
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     public boolean remove(Pedido t) throws IOException {
         if(objExist(t)){
             pedidos.remove(t);
@@ -69,6 +81,7 @@ public class DaoArquivoPedido {
         return false;
     }
 
+<<<<<<< HEAD
     /**
      * Metodo que retorna um pedido procurado
      * @param nameSearch
@@ -76,6 +89,8 @@ public class DaoArquivoPedido {
      * @throws IOException
      * @throws ClassNotFoundException
      */
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     public List<Pedido> getAllStartsWithName(String nameSearch) throws IOException, ClassNotFoundException {
         ObjectInputStream in = null;
         if(this.archive.length()> 0){
@@ -89,12 +104,15 @@ public class DaoArquivoPedido {
         return new ArrayList<>();
     }
 
+<<<<<<< HEAD
     /**
      * Metodo que retorna todos os pedidos
      * @return
      * @throws IOException
      * @throws ClassNotFoundException
      */
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     public List<Pedido> getAll() throws IOException, ClassNotFoundException {
         ObjectInputStream in;
         if(this.archive.length()> 0){
@@ -106,11 +124,14 @@ public class DaoArquivoPedido {
         return new ArrayList<>();
     }
 
+<<<<<<< HEAD
     /**
      * Metodo que verifica se um pedido exsite
      * @param t
      * @return
      */
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     public boolean objExist(Pedido t){
         for(Pedido i : pedidos){
             if(i.getNumeroPedido().equals(t.getNumeroPedido()))
@@ -119,10 +140,13 @@ public class DaoArquivoPedido {
         return false;
     }
 
+<<<<<<< HEAD
     /**
      * Metodo que escreve em um arquivo
      * @throws IOException
      */
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     public void writeArchive() throws IOException{
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(archive));
         out.writeObject(pedidos);

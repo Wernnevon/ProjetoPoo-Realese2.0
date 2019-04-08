@@ -12,9 +12,12 @@ import java.text.ParseException;
 import java.time.LocalDate;
 import java.util.Date;
 
+<<<<<<< HEAD
 /**
  * Classe que cadastra os pedidos realizados
  */
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
 public class CadastroPedido extends JFrame{
     private JPanel painelPedido;
     private JFormattedTextField numPedido;
@@ -24,7 +27,10 @@ public class CadastroPedido extends JFrame{
     private JButton salvarButton;
     private JButton limparButton;
     private JLabel imagePedido;
+<<<<<<< HEAD
     private JButton menuButton;
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     private Pedido pedido;
 
     private DaoArquivoPedido daoArquivoPedido;
@@ -33,16 +39,24 @@ public class CadastroPedido extends JFrame{
         super("Controle de Pedidos");
         setContentPane(painelPedido);
         setDefaultCloseOperation(HIDE_ON_CLOSE);
+<<<<<<< HEAD
         setSize(600, 700);
+=======
+        setSize(500, 700);
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
         ImageIcon imageIcon = new ImageIcon("imagens/notepadFundo.png");
         setIconImage(imageIcon.getImage());
         spinnerMesa.setModel(new SpinnerNumberModel(0, 0, 10, 1));
         installFormatters();
 
         daoArquivoPedido = new DaoArquivoPedido();
+<<<<<<< HEAD
         /**
          * Botão que seta os campos preenchidos
          */
+=======
+
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
         limparButton.addActionListener(e->{
             numPedido.setText("");
             valorPedido.setText("");
@@ -51,9 +65,13 @@ public class CadastroPedido extends JFrame{
 
         });
 
+<<<<<<< HEAD
         /**
          * Botão que salva os pedidos realizados
          */
+=======
+
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
         salvarButton.addActionListener(e-> {
             if (isEmpity()){
                 JOptionPane.showMessageDialog(null, "Campos Vazios! \n Por favor preencha todos os campos!");
@@ -80,9 +98,12 @@ public class CadastroPedido extends JFrame{
                     }
             }
         });
+<<<<<<< HEAD
         menuButton.addActionListener(e->{
            this.dispose();
         });
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     }
 
     private void createUIComponents() {
@@ -96,6 +117,7 @@ public class CadastroPedido extends JFrame{
         ImageIcon imageIcon2 = new ImageIcon("imagens/limpar.png");
         limparButton = new JButton(imageIcon2);
 
+<<<<<<< HEAD
         ImageIcon btMenu = new ImageIcon("imagens/menuIcon.png");
         menuButton = new JButton(btMenu);
 
@@ -105,6 +127,11 @@ public class CadastroPedido extends JFrame{
     /**
      * Função que aplica mascara em alguns campos de texto
      */
+=======
+
+    }
+
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     private void installFormatters (){
         MaskFormatter formatter = null;
         MaskFormatter formatter1 = null;
@@ -124,10 +151,13 @@ public class CadastroPedido extends JFrame{
         formatter1.install(valorPedido);
     }
 
+<<<<<<< HEAD
     /**
      * Metodo que retorna dos os pedidos
      * @return true
      */
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     private boolean exite () {
         try {
             if(daoArquivoPedido.getAll() != null) {
@@ -142,11 +172,14 @@ public class CadastroPedido extends JFrame{
         }
         return false;
     }
+<<<<<<< HEAD
 
     /**
      * Metodo que verifica se os campos estão vazios
      * @return
      */
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     private boolean isEmpity(){
         if ((numPedido.getText().equals(""))&&(valorPedido.getText().equals(""))
                 &&((Integer)spinnerMesa.getValue()==0)&&(descricaoPedido.getText().equals(""))){

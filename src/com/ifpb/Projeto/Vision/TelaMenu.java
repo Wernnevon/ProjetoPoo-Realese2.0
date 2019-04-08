@@ -56,9 +56,12 @@ public class TelaMenu extends JFrame{
             BuscaProduto busProduto = new BuscaProduto();
             busProduto.setVisible(true);
         });
+<<<<<<< HEAD
         /**
          * Cadastrando os pedidos
          */
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
         cadastroDePedidosButton.addActionListener(e-> {
             try {
                 CadastroPedido pedido =new CadastroPedido();
@@ -68,19 +71,25 @@ public class TelaMenu extends JFrame{
             }
 
         });
+<<<<<<< HEAD
         /**
          * Buscando os pedidos
          */
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
         buscaDePedidosButton.addActionListener(e-> {
             BuscaPedido buscaPedido = new BuscaPedido();
             buscaPedido.setVisible(true);
         });
+<<<<<<< HEAD
         /**
          * Encerrrando a aplicação
          */
         encerrarButton.addActionListener(e-> {
            System.exit(0);
         });
+=======
+>>>>>>> afb34d1b085104ff3728379b3de8deb5d14a7822
     }
 
     private void createUIComponents() {
