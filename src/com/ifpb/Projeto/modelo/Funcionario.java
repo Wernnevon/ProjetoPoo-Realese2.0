@@ -5,6 +5,9 @@ import com.ifpb.Projeto.Vision.Funcao;
 import java.io.Serializable;
 import java.time.LocalDate;
 
+/**
+ * Classe que armazena as informações sobre os Funcionários do restaurante
+ */
 public class Funcionario implements Serializable {
     private String nome;
     private String cpf;

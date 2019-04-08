@@ -1,6 +1,9 @@
 package com.ifpb.Projeto.modelo;
 import com.ifpb.Projeto.Vision.Tipo;
 
+/**
+ * Classe que herda de 'Produto' e armazena informações sobre os pratos do restaurante
+ */
 public class Prato extends Produto{
     Tipo tipo;
 

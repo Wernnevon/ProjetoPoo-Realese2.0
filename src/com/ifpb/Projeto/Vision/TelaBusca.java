@@ -7,6 +7,9 @@ import javax.swing.*;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Classe para buscar um funcionário cadastrado no restaurante
+ */
 public class TelaBusca extends JFrame{
     private JPanel buscar;
     private JTextField nomeBuscar;

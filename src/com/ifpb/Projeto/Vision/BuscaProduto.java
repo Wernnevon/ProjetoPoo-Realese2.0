@@ -10,6 +10,9 @@ import java.awt.*;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Classe que Busca os produtos cadastrados no Restaurante
+ */
 public class BuscaProduto extends JFrame{
     private JTextField busacProduto;
     private JButton buscarButton;
@@ -33,11 +36,16 @@ public class BuscaProduto extends JFrame{
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        /**
+         * Botão que volta para tela que o chamou
+         */
         voltarButton.addActionListener(e->{
             this.dispose();
         });
 
+        /**
+         * Botão que busca o produto
+         */
         buscarButton.addActionListener(e->{
             //imprime um funcionário ou lsta de funcionários cadastrado na tela, caso n exista uma janela sera aberta
             //informando que o funcionário não está cadastrado ou o nome está errado;

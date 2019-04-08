@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * Arquivo que armazena as informações sobre as bebidas do restaurante
+ */
 public class DaoArquivoBebida {
     private File file;
     List<Bebida> adega;
@@ -17,6 +20,13 @@ public class DaoArquivoBebida {
 
     }
 
+    /**
+     * Metodo que adiciona uma bebida no arquivo
+     * @param t
+     * @return
+     * @throws IOException
+     * @throws ClassNotFoundException
+     */
     public boolean add(Bebida t) throws IOException, ClassNotFoundException {
         adega = this.getAll();
         if(!objExist(t)){
@@ -27,6 +37,13 @@ public class DaoArquivoBebida {
         return false;
     }
 
+    /**
+     *  Metodo que edita uma bebida na Adega
+     * @param t
+     * @return
+     * @throws IOException
+     * @throws ClassNotFoundException
+     */
     public boolean edit(Bebida t) throws IOException, ClassNotFoundException {
         adega = this.getAll();
         if (objExist(t)){
@@ -37,6 +54,12 @@ public class DaoArquivoBebida {
         return false;
     }
 
+    /**
+     * Metodo para remover uma bebida da adega
+     * @param t
+     * @return
+     * @throws IOException
+     */
     public boolean remove(Bebida t) throws IOException {
         if(objExist(t)){
             adega.remove(t);
@@ -46,6 +69,13 @@ public class DaoArquivoBebida {
         return false;
     }
 
+    /**
+     * Metodo que retorna uma bebida com o nome pesquisado
+     * @param nameSearch
+     * @return
+     * @throws IOException
+     * @throws ClassNotFoundException
+     */
     public List<Bebida> getAllStartsWithName(String nameSearch) throws IOException, ClassNotFoundException {
         ObjectInputStream in = null;
         if(this.file.length()> 0){
@@ -59,6 +89,12 @@ public class DaoArquivoBebida {
         return new ArrayList<>();
     }
 
+    /**
+     * Metodo que retorna todas bebidas da Adega
+     * @return
+     * @throws IOException
+     * @throws ClassNotFoundException
+     */
     public List<Bebida> getAll() throws IOException, ClassNotFoundException {
         ObjectInputStream in = null;
         if(this.file.length()> 0){
@@ -70,6 +106,11 @@ public class DaoArquivoBebida {
         return new ArrayList<>();
     }
 
+    /**
+     * Metodo que verifica se uma bebida existe
+     * @param t
+     * @return
+     */
     public boolean objExist(Bebida t){
         for(Bebida i : adega){
             if (!(i.getCodProduto().equals(t.getCodProduto()))) {
@@ -80,6 +121,10 @@ public class DaoArquivoBebida {
         return false;
     }
 
+    /**
+     * Metodo que escreve no arquivo
+     * @throws IOException
+     */
     public void writeArchive() throws IOException{
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(file));
         out.writeObject(adega);

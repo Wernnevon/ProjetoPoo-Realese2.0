@@ -8,9 +8,14 @@ import com.ifpb.Projeto.modelo.Produto;
 
 import javax.swing.*;
 import javax.swing.text.MaskFormatter;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.text.ParseException;
 
+/**
+ * Classe que cadastra um produto no restaurante
+ */
 public class CadastroProduto extends JFrame{
 
     private JPanel cadastroProdutos;
@@ -24,6 +29,7 @@ public class CadastroProduto extends JFrame{
     private JLabel imgProd;
     private JSpinner spinnerQuantidade;
     private JSpinner spinnerIdade;
+    private JButton menuButton;
 
     private DaoArquivoBebida daoArquivoBebida;
     private DaoArquivoPrato daoArquivoPrato;
@@ -103,6 +109,9 @@ public class CadastroProduto extends JFrame{
                 ex.printStackTrace();
             }
         });
+        menuButton.addActionListener(e-> {
+            this.dispose();
+        });
     }
 
     private void createUIComponents() {
@@ -114,6 +123,9 @@ public class CadastroProduto extends JFrame{
 
        ImageIcon btClear = new ImageIcon("imagens/limpar.png");
        limparButton = new JButton(btClear);
+
+        ImageIcon btMenu = new ImageIcon("imagens/menuIcon.png");
+        menuButton = new JButton(btMenu);
 
         MaskFormatter mascara = null;
 

@@ -5,6 +5,9 @@ import com.ifpb.Projeto.Vision.Classe;
 
 import java.io.Serializable;
 
+/**
+ * Classe que herda de 'Produto', guarda informações sobre as Bebidas do restaurante
+ */
 public class Bebida extends Produto implements Serializable {
     Classe classe;
     int idade;

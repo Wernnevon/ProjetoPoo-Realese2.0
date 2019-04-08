@@ -2,6 +2,9 @@ package com.ifpb.Projeto.modelo;
 
 import java.io.Serializable;
 
+/**
+ * Classe abstrata que armazena informações em comum sobre o estoque do restaurante
+ */
 public abstract class Produto implements Serializable {
     String nome;
     String codProduto;
